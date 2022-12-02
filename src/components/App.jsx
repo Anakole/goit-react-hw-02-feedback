@@ -11,7 +11,7 @@ export class App extends Component {
     bad: 0,
   };
 
-  handlerClick = element => {
+  onElementClick = element => {
     const keyState = Object.keys(this.state);
 
     keyState.forEach(key => {
@@ -42,7 +42,7 @@ export class App extends Component {
           children={
             <FeedbackOptions
               options={keyState}
-              onElementClick={this.handlerClick}
+              onLeaveFeedback={this.onElementClick}
             />
           }
         />
