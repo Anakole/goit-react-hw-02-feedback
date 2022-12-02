@@ -1,11 +1,11 @@
-export const FeedbackOptions = ({ options, onElementClick }) => {
+export const FeedbackOptions = ({ options, onLeaveFeedback }) => {
   return (
     <div>
       {options.map(element => (
         <button
           key={element}
           type="button"
-          onClick={onElementClick}
+          onClick={onLeaveFeedback}
           value={element}
         >
           {element}
