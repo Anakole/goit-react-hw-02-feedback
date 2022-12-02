@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Anakole/goit-react-hw-02-feedback.git/static/css/main.7acaea2f.css",
-    "main.js": "/Anakole/goit-react-hw-02-feedback.git/static/js/main.ce94277d.js",
+    "main.css": "/Anakole/goit-react-hw-02-feedback.git/static/css/main.505e5da7.css",
+    "main.js": "/Anakole/goit-react-hw-02-feedback.git/static/js/main.1968fa14.js",
     "index.html": "/Anakole/goit-react-hw-02-feedback.git/index.html",
-    "main.7acaea2f.css.map": "/Anakole/goit-react-hw-02-feedback.git/static/css/main.7acaea2f.css.map",
-    "main.ce94277d.js.map": "/Anakole/goit-react-hw-02-feedback.git/static/js/main.ce94277d.js.map"
+    "main.505e5da7.css.map": "/Anakole/goit-react-hw-02-feedback.git/static/css/main.505e5da7.css.map",
+    "main.1968fa14.js.map": "/Anakole/goit-react-hw-02-feedback.git/static/js/main.1968fa14.js.map"
   },
   "entrypoints": [
-    "static/css/main.7acaea2f.css",
-    "static/js/main.ce94277d.js"
+    "static/css/main.505e5da7.css",
+    "static/js/main.1968fa14.js"
   ]
 }
