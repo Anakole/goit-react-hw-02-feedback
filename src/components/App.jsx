@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Box } from './App.styled';
 import { FeedbackOptions } from './FeedbackOptions/FeedbackOptions';
 import { Notification } from './Notification/Notification';
 import { Section } from './Section/Section';
@@ -36,7 +37,7 @@ export class App extends Component {
     const { good, neutral, bad } = this.state;
     const keyState = Object.keys(this.state);
     return (
-      <div>
+      <Box>
         <Section
           title="Please leave feedback"
           children={
@@ -62,7 +63,7 @@ export class App extends Component {
             )
           }
         />
-      </div>
+      </Box>
     );
   }
 }
